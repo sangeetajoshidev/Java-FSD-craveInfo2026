@@ -13,6 +13,11 @@ public class Employee implements Printable{
 		("EmpId"+empId+"name"+name+"b_salary"+b_salary);
 	}
 	
+      public static void m1() {
+		System.out.println("m1 in Emp");
+	}
+	
+	
 	
 	public void cal_salary() {
 		System.out.println("Totla salary is the basic salary for emp"+b_salary);

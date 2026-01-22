@@ -8,6 +8,12 @@ public class Manager extends Employee {
 		 * System.out.println("no arg of mgr"); }
 		 */
 
+	 public static void m1() {
+			System.out.println("m1 in mgr");
+		}
+	 
+	 
+	 
 	public Manager(int empId, String name, String dept, double b_salary , double a) {
 	    super(empId, name, dept, b_salary);
 		// TODO Auto-generated constructor stub
